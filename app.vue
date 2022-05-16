@@ -1,5 +1,5 @@
 <template>
   <div>
-    こんにちは
+    こんばんは
   </div>
 </template>

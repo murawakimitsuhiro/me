@@ -5,9 +5,10 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "deploy": "push-dir --dir=dist --branch=gh-page --cleanup && touch .output/public/.nojekyll"
+    "deploy": "gh-pages -d dist -t true"
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "nuxt": "3.0.0-rc.3",
     "push-dir": "^0.4.1"
   }
